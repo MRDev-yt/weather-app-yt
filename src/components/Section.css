@@ -1,0 +1,165 @@
+.section {
+    display: flex;
+    width: 100%;
+}
+/* CSS for left section */
+
+.leftSection{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;  
+}
+
+.leftSection__degree{
+    font-size: 60px;
+}
+
+.leftSectionData{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-left: 80px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.leftSectionData h1 {
+    font-size: 80px;
+}
+
+.data__Details{
+    display: flex;
+    flex-direction: column;
+}
+
+.data__type{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+  
+}
+
+.data__type img{
+    height: 70px;
+}
+
+.data__type p {
+ display: flex;
+}
+
+.data__type span {
+margin-left: 4px;
+}
+
+/* CSS for right Section */
+
+.rightSection {
+    width: 35%;
+    height: 100%;
+    backdrop-filter: blur(25px) saturate(150%);
+    -webkit-backdrop-filter: blur(25px) saturate(150%);
+    background-color: rgba(255, 255, 255, 0.09);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.rightSection__header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__Left{
+    width: 88%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.header__Right {
+    width: 12% ;
+    height: 50px;
+
+    display: flex;
+    float: left;
+}
+.header__Left input {
+    width: 250px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  align-items: center;
+  color:gray
+
+}
+
+.header__Left input:hover{
+    color: whitesmoke;
+}
+
+.header__Right button{
+    display: flex;
+    border: none;
+    background-color: orange;
+    width: 100% ;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.rightSection__lastSearched{
+    width: 80%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid gray;  
+}
+
+.rightSection__lastSearched p {
+    margin-top: 2px;
+    color: gray;
+    font-size: 14px;
+    
+}
+
+.rightSection__lastSearched p:hover {
+color: whitesmoke;
+cursor: pointer;
+    
+}
+
+
+.rightSection__weatherDetails{
+    width: 80%;
+    color: gray;
+}
+
+.rightSection__weatherDetails h2 {
+    margin-bottom: 15px;
+}
+
+
+.rightSection__weatherDetails p {
+ margin-top: 4px;
+}
+
+.rightSection__weatherDetails p:hover{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+span{
+    font-weight: bold;
+}
+
+h2 {
+    color: gray;
+}
